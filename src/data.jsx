@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { SiRedux, SiReactquery, SiAxios } from "react-icons/si";
 import cocktailImg from "./assets/cocktail.png";
 import unsplashImg from "./assets/unsplash.png";
+import comfyImg from "./assets/comfy.png";
 export const links = [
 	{ id: nanoid(), href: "#home", text: "home" },
 	{ id: nanoid(), href: "#skills", text: "skills" },
@@ -50,10 +51,10 @@ export const projects = [
 	},
 	{
 		id: nanoid(),
-		img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-		url: "https://react-projects.netlify.app/",
-		github: "https://github.com/john-smilga",
-		title: "third project",
-		text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+		img: comfyImg,
+		url: "https://comfy-store-online.netlify.app/",
+		github: "https://github.com/samobeng14Dev/comfy-store",
+		title: "Comfy Store",
+		text: "Introducing my latest achievement: a cutting-edge Comfy Store Web App! Leveraging a powerhouse of technologies, including React, Axios, React Query, Redux Toolkit, React Router, Tailwind CSS, DaisyUI, React Toastify, and Strapi, this project redefines the online shopping experience. The front-end boasts a seamless blend of React's dynamic interface, efficient data handling with React Query, and state management simplicity via Redux Toolkit. Tailwind CSS and DaisyUI contribute to a sleek and modern design, while React Toastify ensures users stay informed with friendly notifications.",
 	},
 ];
