@@ -16,7 +16,7 @@ const App = () => {
 			<About />
 			<Projects />
 			<Footer />
-			<Sidebar links={links} />
+			{/* <Sidebar links={links} /> */}
 		</>
 	);
 };
