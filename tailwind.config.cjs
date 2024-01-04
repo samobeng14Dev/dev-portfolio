@@ -6,6 +6,16 @@ export default {
 	},
 	plugins: [require("daisyui")],
 	daisyui: {
-		themes: ["winter", "dracula", "cyberpunk", "retro", "nord"],
+		themes: [
+			"winter",
+			"dracula",
+			"cyberpunk",
+			"retro",
+			"forest",
+			"valentine",
+			"sunset",
+			"aqua",
+			"nord",
+		],
 	},
 };

@@ -6,7 +6,7 @@ import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
 const themes = {
 	nord: "nord",
-	retro: "retro",
+	sunset: "sunset",
 };
 const getThemeFromLocalStorage = () => {
 	return localStorage.getItem("theme" || themes.nord);
@@ -14,8 +14,8 @@ const getThemeFromLocalStorage = () => {
 const Navbar = () => {
 	const [theme, setTheme] = useState(getThemeFromLocalStorage());
 	const handleTheme = () => {
-		const { nord, retro } = themes;
-		const newTheme = theme === nord ? retro : nord;
+		const { nord, sunset } = themes;
+		const newTheme = theme === nord ? sunset : nord;
 		setTheme(newTheme);
 	};
 	useEffect(() => {
@@ -23,7 +23,12 @@ const Navbar = () => {
 		localStorage.setItem("theme", theme);
 	}, [theme]);
 	return (
-		<nav className='bg-emerald-500'>
+		<nav
+			className={`bg-emerald-500 ${
+				theme === themes.sunset
+					? "text-white hover:text-black duration-300"
+					: "text-black hover:text-white duration-300"
+			}`}>
 			<div className='navbar align-element'>
 				{/* Navbar Start */}
 				<div className='navbar-start'>
@@ -61,7 +66,7 @@ const Navbar = () => {
 							onChange={handleTheme}
 						/>
 						{/* sun icon */}
-						<BsSunFill className='swap-on h-4 w-4 text-black' />
+						<BsSunFill className='swap-on h-4 w-4 text-white' />
 						{/* moon icon */}
 						<BsMoonFill className='swap-off h-4 w-4 text-black' />
 					</label>

@@ -9,8 +9,8 @@ const Resume = () => {
 	return (
 		<section
 			id='resume'
-			className='align-element mt-4 p-8 bg-white shadow-md rounded-md'>
-			<h2 className='text-2xl font-bold mb-4'>Download Resume</h2>
+			className='align-element mt-4 p-8  shadow-md rounded-md'>
+			<h2 className='text-2xl text-black font-bold mb-4'>Download Resume</h2>
 			<button
 				className='bg-emerald-500 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded'
 				onClick={handleDownload}>
