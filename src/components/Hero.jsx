@@ -10,7 +10,7 @@ const Hero = () => {
 						I'm Samuel
 					</h1>
 					<p className='mt-4 text-3xl text-white capitalize tracking-wide'>
-						Front-End Developer
+						Front-End Web Developer
 					</p>
 					<p className='mt-2 text-lg text-white capitalize tracking-wide'>
 						turning ideas into interactive frontend solutions
