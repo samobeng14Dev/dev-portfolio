@@ -24,10 +24,10 @@ const Navbar = () => {
 	}, [theme]);
 	return (
 		<nav
-			className={`bg-emerald-500 ${
+			className={`bg-emerald-500 h-15 sticky top-0 z-50 ${
 				theme === themes.sunset
-					? "text-white hover:text-black duration-300"
-					: "text-black hover:text-white duration-300"
+					? "text-white hover:text-black font-mono duration-300"
+					: "text-black hover:text-white font-mono duration-300"
 			}`}>
 			<div className='navbar align-element'>
 				{/* Navbar Start */}

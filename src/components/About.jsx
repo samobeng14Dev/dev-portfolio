@@ -9,7 +9,7 @@ const About = () => {
 			<div className='align-element grid md:grid-cols-2 items-center gap-16'>
 				<img
 					src={aboutSvg}
-					className='w-full h-64'
+					className='w-full h-64 animate-bounce'
 				/>
 				<article>
 					<SectionTitle text='About Me' />

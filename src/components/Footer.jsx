@@ -1,3 +1,5 @@
+import NavLinks from "./NavLinks";
+
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
@@ -12,7 +14,7 @@ const Footer = () => {
 					&copy; {currentYear} Samuel Obeng. All rights reserved.
 				</p>
 				<button
-					className='bg-emerald-500 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded mt-2'
+					className='btn btn-sm bg-emerald-500 hover:bg-emerald-700 text-white  py-2 px-4  mt-4 animate-bounce'
 					onClick={handleScrollToTop}>
 					Back to Top
 				</button>
