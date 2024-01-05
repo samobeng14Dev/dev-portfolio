@@ -15,21 +15,22 @@ const About = () => {
 					<SectionTitle text='About Me' />
 
 					<p className='text-white mt-8 leading-loose'>
-						<span className='font-bold'>Introduction-</span> <br />I am Samuel
-						Obeng. A passionate Frontend Web Developer specializing in
-						JavaScript, React, and TypeScript Technologies. Committed to
-						creating seamless user experiences and collaborating with fellow
-						developers to achieve outstanding results.
+						<span className=' text-black font-medium'>Introduction-</span>{" "}
+						<br />I am Samuel Obeng. A passionate Frontend Web Developer
+						specializing in JavaScript, React, and TypeScript Technologies.
+						Committed to creating seamless user experiences and collaborating
+						with fellow developers to achieve outstanding results.
 					</p>
 					<p className='text-white mt-8 leading-loose'>
-						<span className='font-bold'>Expertise-</span> <br />
+						<span className='text-black font-medium'>Expertise-</span> <br />
 						HTML/CSS, JavaScript, React, ReactQuery, Redux: Proficient in
 						building dynamic, performant web applications using the latest
 						frontend technologies. User-Centric Design: Dedicated to crafting
 						interfaces that are both visually appealing and user-friendly.
 					</p>
 					<p className='text-white mt-8 leading-loose'>
-						<span className='font-bold'>Key Attributes-</span> <br />
+						<span className='text-black font-medium'>Key Attributes-</span>{" "}
+						<br />
 						Code Quality: Strong advocate of clean, maintainable code following
 						industry best practices. Continuous Learning: Enthusiastic about
 						staying up-to-date with evolving tech trends to integrate innovative
