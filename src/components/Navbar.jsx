@@ -68,7 +68,7 @@ const Navbar = () => {
 						{/* sun icon */}
 						<BsSunFill className='swap-on h-4 w-4 text-white' />
 						{/* moon icon */}
-						<BsMoonFill className='swap-off h-4 w-4 text-black animate-pulse' />
+						<BsMoonFill className='swap-off h-4 w-4 text-black' />
 					</label>
 				</div>
 			</div>
