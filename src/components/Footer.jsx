@@ -1,3 +1,5 @@
+import NavLinks from "./NavLinks";
+
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
@@ -6,7 +8,7 @@ const Footer = () => {
 	};
 
 	return (
-		<footer className='bg-emerald-800 text-white py-4x'>
+		<footer className='bg-emerald-800 text-white py-4'>
 			<div className='container mx-auto text-center'>
 				<p className='text-sm'>
 					&copy; {currentYear} Samuel Obeng. All rights reserved.

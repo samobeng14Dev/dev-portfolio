@@ -26,7 +26,7 @@ const ScrollToTop = () => {
 
 	return (
 		<div
-			className={`fixed bottom-4 right-4 bg-emerald-500 text-white p-2 rounded-full cursor-pointer animate-bounce ${
+			className={`fixed bottom-0 right-4 bg-emerald-500 text-white p-2 rounded-full cursor-pointer animate-bounce ${
 				isVisible ? "visible" : "invisible"
 			}`}
 			onClick={scrollToTop}>
