@@ -38,11 +38,11 @@ const Navbar = () => {
 				</div>
 
 				{/* DROPDOWN */}
-				<div className='dropdown'>
+				<div className='dropdown '>
 					<label
 						tabIndex={0}
 						className='btn btn-ghost lg:hidden'>
-						<FaBarsStaggered className='h6 w-6 text-black' />
+						<FaBarsStaggered className='h6 w-6 text-black animate-pulse' />
 					</label>
 					<ul
 						tabIndex={0}
@@ -68,7 +68,7 @@ const Navbar = () => {
 						{/* sun icon */}
 						<BsSunFill className='swap-on h-4 w-4 text-white' />
 						{/* moon icon */}
-						<BsMoonFill className='swap-off h-4 w-4 text-black' />
+						<BsMoonFill className='swap-off h-4 w-4 text-black animate-pulse' />
 					</label>
 				</div>
 			</div>

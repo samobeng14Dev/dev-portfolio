@@ -15,9 +15,9 @@ export const links = [
 export const skills = [
 	{
 		id: nanoid(),
-		title: "HTML&CSS",
-		icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
-		text: "Skilled at creating aesthetically pleasing and responsive websites to provide the best possible user experiences, with proficiency in HTML and CSS",
+		title: "React",
+		icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+		text: "Advanced React skills, including the ability to create efficient and dynamic front-end applications with a strong emphasis on component-based architecture..",
 	},
 	{
 		id: nanoid(),
@@ -27,9 +27,9 @@ export const skills = [
 	},
 	{
 		id: nanoid(),
-		title: "React",
-		icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-		text: "Advanced React skills, including the ability to create efficient and dynamic front-end applications with a strong emphasis on component-based architecture..",
+		title: "HTML&CSS",
+		icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+		text: "Skilled at creating aesthetically pleasing and responsive websites to provide the best possible user experiences, with proficiency in HTML and CSS",
 	},
 ];
 
