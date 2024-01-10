@@ -1,31 +1,20 @@
-// Navbar.js
-import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleTheme } from "../feature/toggle/toggleSlice";
 import { FaBarsStaggered } from "react-icons/fa6";
 import NavLinks from "./NavLinks";
 import { BsMoonFill, BsSunFill } from "react-icons/bs";
 
-const themes = {
-	nord: "nord",
-	sunset: "sunset",
-};
-const getThemeFromLocalStorage = () => {
-	return localStorage.getItem("theme" || themes.nord);
-};
 const Navbar = () => {
-	const [theme, setTheme] = useState(getThemeFromLocalStorage());
+	const dispatch = useDispatch();
 	const handleTheme = () => {
-		const { nord, sunset } = themes;
-		const newTheme = theme === nord ? sunset : nord;
-		setTheme(newTheme);
+		dispatch(toggleTheme());
 	};
-	useEffect(() => {
-		document.documentElement.setAttribute("data-theme", theme);
-		localStorage.setItem("theme", theme);
-	}, [theme]);
+	const theme = useSelector((state) => state.toggleState.theme);
+
 	return (
 		<nav
 			className={`bg-emerald-500 h-15 sticky top-0 z-50 ${
-				theme === themes.sunset
+				theme === theme.sunset
 					? "text-white hover:text-black font-mono duration-300"
 					: "text-black hover:text-white font-mono duration-300"
 			}`}>
