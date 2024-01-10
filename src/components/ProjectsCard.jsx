@@ -14,7 +14,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
 			<div
 				className={`p-8 ${theme === "sunset" ? "text-white" : "text-black"}`}>
 				<h2 className='text-xl tracking-wide font-medium'>{title}</h2>
-				<p className='mt-4  leading-loose'>{text}</p>
+				<p className='mt-4  leading-loose '>{text}</p>
 				<div className='mt-4 flex gap-x-4'>
 					<a href={url}>
 						<TbWorldWww className='h-8 w-8 text-slate-500 hover:text-black duration-300' />

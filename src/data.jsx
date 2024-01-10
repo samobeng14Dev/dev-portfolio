@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { SiRedux, SiReactquery, SiAxios } from "react-icons/si";
+import { SiRedux, SiReactquery, SiTailwindcss } from "react-icons/si";
 import cocktailImg from "./assets/cocktail.png";
 import unsplashImg from "./assets/unsplash.png";
 import comfyImg from "./assets/comfy.png";
@@ -17,13 +17,31 @@ export const skills = [
 		id: nanoid(),
 		title: "React",
 		icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-		text: "Advanced React skills, including the ability to create efficient and dynamic front-end applications with a strong emphasis on component-based architecture..",
+		text: "Advanced React skills, including the ability to create efficient and dynamic front-end applications with a strong emphasis on component-based architecture.",
+	},
+	{
+		id: nanoid(),
+		title: "ReactQuery",
+		icon: <SiReactquery className='h-16 w-16 text-emerald-500' />,
+		text: "Leveraging React Query's intuitive hooks and query caching mechanisms, I've seamlessly managed asynchronous data fetching, ensuring a seamless user experience by reducing unnecessary network requests and providing real-time updates. ",
+	},
+	{
+		id: nanoid(),
+		title: "Redux",
+		icon: <SiRedux className='h-16 w-16 text-emerald-500' />,
+		text: " Leveraging Redux Toolkit, I've architectured and maintained a robust and scalable state structure, fostering predictable and maintainable codebases.",
 	},
 	{
 		id: nanoid(),
 		title: "Javascript",
 		icon: <FaJs className='h-16 w-16 text-emerald-500' />,
 		text: "Expertise in JavaScript, designing interactive and dynamic web apps with an emphasis on seamless user interactions and functionality.",
+	},
+	{
+		id: nanoid(),
+		title: "Tailwind CSS",
+		icon: <SiTailwindcss className='h-16 w-16 text-emerald-500' />,
+		text: "I've mastered the art of crafting responsive and aesthetically pleasing user interfaces by leveraging the utility-first approach of this popular CSS framework.",
 	},
 	{
 		id: nanoid(),
