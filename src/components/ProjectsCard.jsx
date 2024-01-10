@@ -5,14 +5,14 @@ import { useSelector } from "react-redux";
 const ProjectsCard = ({ url, img, github, title, text }) => {
 	const theme = useSelector((state) => state.toggleState.theme);
 	return (
-		<article
-			className={`card ${theme === "sunset" ? "text-white" : "text-black"}`}>
+		<article className='card'>
 			<img
 				src={img}
 				alt={title}
 				className='w-full object-cover rounded-t-lg h-64'
 			/>
-			<div className=' p-8'>
+			<div
+				className={`p-8 ${theme === "sunset" ? "text-white" : "text-black"}`}>
 				<h2 className='text-xl tracking-wide font-medium'>{title}</h2>
 				<p className='mt-4  leading-loose'>{text}</p>
 				<div className='mt-4 flex gap-x-4'>
