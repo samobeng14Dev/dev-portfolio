@@ -2,8 +2,7 @@ import ResumePDF from "../assets/resume.pdf";
 const Resume = () => {
 	const handleDownload = () => {
 		window.open(ResumePDF, "_blank");
-		// Alternatively, use window.location.href for download
-		// window.location.href = ResumePDF;
+		
 	};
 
 	return (
