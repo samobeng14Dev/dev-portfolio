@@ -10,7 +10,6 @@ const Navbar = () => {
 		dispatch(toggleTheme());
 	};
 	const theme = useSelector((state) => state.toggleState.theme);
-	console.log(theme);
 
 	return (
 		<nav
