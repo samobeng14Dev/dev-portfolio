@@ -16,6 +16,8 @@ export default {
 			"sunset",
 			"aqua",
 			"nord",
+			"light",
+			"dark",
 		],
 	},
 };
