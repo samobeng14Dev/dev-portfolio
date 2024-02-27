@@ -3,6 +3,7 @@ import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { SiRedux, SiReactquery, SiTailwindcss } from "react-icons/si";
 import cocktailImg from "./assets/cocktail.png";
 import unsplashImg from "./assets/unsplash.png";
+import estateImg from "./assets/estate.png";
 import comfyImg from "./assets/comfy.png";
 export const links = [
 	{ id: nanoid(), href: "#home", text: "home" },
@@ -75,5 +76,13 @@ export const projects = [
 		github: "https://github.com/samobeng14Dev/comfy-store",
 		title: "Comfy Store",
 		text: "Introducing my latest achievement: a cutting-edge Comfy Store Web App! Leveraging a powerhouse of technologies, including React, Axios, React Query, Redux Toolkit, React Router, Tailwind CSS, DaisyUI, React Toastify, and Strapi, this project redefines the online shopping experience. The front-end boasts a seamless blend of React's dynamic interface, efficient data handling with React Query, and state management simplicity via Redux Toolkit. Tailwind CSS and DaisyUI contribute to a sleek and modern design, while React Toastify ensures users stay informed with friendly notifications.",
+	},
+	{
+		id: nanoid(),
+		img: estateImg,
+		url: "https://react-firebase-real-estate-webapp.netlify.app/",
+		github: "https://github.com/samobeng14Dev/real-estate-app",
+		title: "Samo Estates",
+		text: "Excited to share my latest project: a dynamic real estate web application built with ReactJS Firebase, OAuth, Tailwind CSS, and DaisyUI! This platform empowers users to effortlessly create, manage, and browse property listings. With seamless integration of Firebase for authentication and database management, users can securely log in, create personalized profiles, and even contact landlords directly through the platform.The application features a user-friendly interface and leverages React Router for smooth navigation, ensuring an intuitive browsing experience. Tailwind CSS and DaisyUI were instrumental in crafting a sleek and modern design, enhancing user engagement and satisfaction.From creating and editing listings to managing profiles and contacting landlords, this project embodies the intersection of cutting-edge technology and user-centric design, providing a seamless solution for real estate enthusiasts.",
 	},
 ];
