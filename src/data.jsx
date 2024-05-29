@@ -5,6 +5,7 @@ import cocktailImg from "./assets/cocktail.png";
 import unsplashImg from "./assets/unsplash.png";
 import estateImg from "./assets/estate.png";
 import comfyImg from "./assets/comfy.png";
+import comfySlothImg from "./assets/comfySloth.png";
 export const links = [
 	{ id: nanoid(), href: "#home", text: "home" },
 	{ id: nanoid(), href: "#skills", text: "skills" },
@@ -55,6 +56,31 @@ export const skills = [
 export const projects = [
 	{
 		id: nanoid(),
+		img: comfySlothImg,
+		url: "https://comfysloth-ecomerce.netlify.app/",
+		github: "https://github.com/samobeng14Dev/e-commerce-app",
+		title: "Comfy Sloth",
+		text: "Excited to share my latest project: a modern e-commerce web application using React, Context API, Styled Components, HTML, CSS, Auth0, Stripe, and React Router. The app features secure user authentication, dynamic product listings, efficient shopping cart management, and seamless payment processing with Stripe. Designed with responsive principles, it ensures an optimal user experience across all devices. This project highlights my skills in creating user-centric, scalable, and visually appealing web solutions. Explore my portfolio to see this and other projects in action.",
+	},
+	{
+		id: nanoid(),
+		img: estateImg,
+		url: "https://react-firebase-real-estate-webapp.netlify.app/",
+		github: "https://github.com/samobeng14Dev/real-estate-app",
+		title: "Samo Estates",
+		text: "Excited to share my latest project: a dynamic real estate web application built with ReactJS Firebase, OAuth, Tailwind CSS, and DaisyUI! This platform empowers users to effortlessly create, manage, and browse property listings. With seamless integration of Firebase for authentication and database management, users can securely log in, create personalized profiles, and even contact landlords directly through the platform.The application features a user-friendly interface and leverages React Router for smooth navigation, ensuring an intuitive browsing experience. Tailwind CSS and DaisyUI were instrumental in crafting a sleek and modern design, enhancing user engagement and satisfaction.From creating and editing listings to managing profiles and contacting landlords, this project embodies the intersection of cutting-edge technology and user-centric design, providing a seamless solution for real estate enthusiasts.",
+	},
+	{
+		id: nanoid(),
+		img: comfyImg,
+		url: "https://comfy-store-online.netlify.app/",
+		github: "https://github.com/samobeng14Dev/comfy-store",
+		title: "Comfy Store",
+		text: "Introducing my latest achievement: a cutting-edge Comfy Store Web App! Leveraging a powerhouse of technologies, including React, Axios, React Query, Redux Toolkit, React Router, Tailwind CSS, DaisyUI, React Toastify, and Strapi, this project redefines the online shopping experience. The front-end boasts a seamless blend of React's dynamic interface, efficient data handling with React Query, and state management simplicity via Redux Toolkit. Tailwind CSS and DaisyUI contribute to a sleek and modern design, while React Toastify ensures users stay informed with friendly notifications.",
+	},
+
+	{
+		id: nanoid(),
 		img: cocktailImg,
 		url: "https://cocktailers-web-app.netlify.app/",
 		github: "https://github.com/samobeng14Dev/cocktail-web-app",
@@ -68,21 +94,5 @@ export const projects = [
 		github: "https://github.com/samobeng14Dev/unsplash-images-project",
 		title: "Unsplash Image",
 		text: "This is a dynamic image search web app using React, Context API, React Query, Axios, and custom hooks, harnessing the Unsplash API's wealth of stunning visuals. The app ensures a seamless user experience with the Context API managing global state, React Query optimizing data fetching for real-time updates, and Axios handling asynchronous requests. Custom hooks enhance code maintainability, resulting in a responsive, innovative, and user-friendly exploration of captivating images.",
-	},
-	{
-		id: nanoid(),
-		img: comfyImg,
-		url: "https://comfy-store-online.netlify.app/",
-		github: "https://github.com/samobeng14Dev/comfy-store",
-		title: "Comfy Store",
-		text: "Introducing my latest achievement: a cutting-edge Comfy Store Web App! Leveraging a powerhouse of technologies, including React, Axios, React Query, Redux Toolkit, React Router, Tailwind CSS, DaisyUI, React Toastify, and Strapi, this project redefines the online shopping experience. The front-end boasts a seamless blend of React's dynamic interface, efficient data handling with React Query, and state management simplicity via Redux Toolkit. Tailwind CSS and DaisyUI contribute to a sleek and modern design, while React Toastify ensures users stay informed with friendly notifications.",
-	},
-	{
-		id: nanoid(),
-		img: estateImg,
-		url: "https://react-firebase-real-estate-webapp.netlify.app/",
-		github: "https://github.com/samobeng14Dev/real-estate-app",
-		title: "Samo Estates",
-		text: "Excited to share my latest project: a dynamic real estate web application built with ReactJS Firebase, OAuth, Tailwind CSS, and DaisyUI! This platform empowers users to effortlessly create, manage, and browse property listings. With seamless integration of Firebase for authentication and database management, users can securely log in, create personalized profiles, and even contact landlords directly through the platform.The application features a user-friendly interface and leverages React Router for smooth navigation, ensuring an intuitive browsing experience. Tailwind CSS and DaisyUI were instrumental in crafting a sleek and modern design, enhancing user engagement and satisfaction.From creating and editing listings to managing profiles and contacting landlords, this project embodies the intersection of cutting-edge technology and user-centric design, providing a seamless solution for real estate enthusiasts.",
 	},
 ];
